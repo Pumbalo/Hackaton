@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  padding: 5rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover,
+li:hover {
+  transform: scale(1.2);
+  transition: 500ms ease-in-out transform;
+}
